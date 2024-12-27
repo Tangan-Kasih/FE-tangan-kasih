@@ -7,7 +7,7 @@ import UrgentNeed from "./components/UrgentNeed/UrgentNeed";
 
 export default function Home() {
   return (
-    <div className=' min-h-screen'>
+    <div className='min-h-screen'>
       <Hero />
       <div className='relative -mt-[20px] lg:-mt-[30px] z-10 container mx-auto px-4'>
         <DonationForm />

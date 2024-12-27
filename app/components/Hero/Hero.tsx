@@ -5,8 +5,8 @@ import WidthWrapper from "../WidthWrapper";
 export default function Hero() {
   return (
     <WidthWrapper>
-      <section className='bg-primary lg:h-screen text-white'>
-        <div className='container mx-auto px-4 py-12 lg:py-0'>
+      <section className='bg-primary  text-white'>
+        <div className='container mx-auto  py-12 lg:py-0'>
           <div className='flex flex-col lg:flex-row items-center'>
             <div className='w-full lg:w-[40%] mb-8 lg:mb-0'>
               <Image
@@ -14,7 +14,7 @@ export default function Hero() {
                 alt='Gambar kegiatan amal'
                 width={500}
                 height={400}
-                className='w-full h-[90vh] object-cover rounded-lg shadow-lg'
+                className='w-full h-[90vh] object-cover  shadow-lg'
               />
             </div>
             <div className='w-full lg:w-[60%] lg:pl-12'>
