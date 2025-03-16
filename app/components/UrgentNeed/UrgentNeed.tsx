@@ -1,9 +1,12 @@
+"use client";
 import { fundraisers } from "@/app/utils/mock/MockCharityCard";
 import { Button } from "../ui/button";
 import WidthWrapper from "../WidthWrapper";
 import CharityCard from "../CharityCard/CharityCard";
+import { useRouter } from "next/navigation";
 
 export default function UrgentNeed() {
+  const router = useRouter();
   return (
     <WidthWrapper>
       <section className='py-16 bg-gray-50'>
@@ -23,6 +26,7 @@ export default function UrgentNeed() {
               variant='secondary'
               size='lg'
               className='bg-[#F8D419] hover:bg-[#E5C200] text-black font-medium'
+              onClick={() => router.push("/funds")}
             >
               Browse all fundraisers
             </Button>
